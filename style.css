@@ -1,0 +1,32 @@
+.add-task {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.add-task__container {
+  display: flex;
+}
+.add-task__input {
+  width: 400px;
+}
+.add-task__btn {
+  width: 200px;
+  color: rgb(45, 99, 45);
+}
+.done {
+  text-decoration: line-through;
+  color: grey;
+}
+.delete {
+  width: 200px;
+  background-color: rgb(83, 14, 14);
+  color: white;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+li {
+  width: 1000px;
+}
